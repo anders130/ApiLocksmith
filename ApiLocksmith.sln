@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiLocksmith.Swagger.FastEndpoints", "src\ApiLocksmith.Swagger.FastEndpoints\ApiLocksmith.Swagger.FastEndpoints.csproj", "{8BF502F8-5743-4643-ACEB-4F82B2948E82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,12 +24,17 @@ Global
 		{1307A3E7-6482-47A0-9998-0908A2B9303A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1307A3E7-6482-47A0-9998-0908A2B9303A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1307A3E7-6482-47A0-9998-0908A2B9303A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BF502F8-5743-4643-ACEB-4F82B2948E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BF502F8-5743-4643-ACEB-4F82B2948E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BF502F8-5743-4643-ACEB-4F82B2948E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BF502F8-5743-4643-ACEB-4F82B2948E82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{1307A3E7-6482-47A0-9998-0908A2B9303A} = {23BD1C0E-A2B5-4E3A-A60C-AF886284C3A7}
+		{8BF502F8-5743-4643-ACEB-4F82B2948E82} = {23BD1C0E-A2B5-4E3A-A60C-AF886284C3A7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9DEE78E-107C-4813-B783-83218DE40FB4}
