@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34321.82
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{23BD1C0E-A2B5-4E3A-A60C-AF886284C3A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiLocksmith.Core", "src\ApiLocksmith.Core\ApiLocksmith.Core.csproj", "{1307A3E7-6482-47A0-9998-0908A2B9303A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{112B8884-643A-4DA4-9886-1964990E21A6}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1307A3E7-6482-47A0-9998-0908A2B9303A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1307A3E7-6482-47A0-9998-0908A2B9303A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1307A3E7-6482-47A0-9998-0908A2B9303A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1307A3E7-6482-47A0-9998-0908A2B9303A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1307A3E7-6482-47A0-9998-0908A2B9303A} = {23BD1C0E-A2B5-4E3A-A60C-AF886284C3A7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9DEE78E-107C-4813-B783-83218DE40FB4}
+	EndGlobalSection
+EndGlobal
