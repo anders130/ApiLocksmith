@@ -1,0 +1,38 @@
+name: Publish to NuGet
+on:
+  release:
+    types:
+      - created
+  workflow_dispatch:
+
+jobs:
+  publish:
+    name: Build, Pack & Publish
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      # Publish Core
+      - name: Publish Core on version change
+        id: publish_core_nuget
+        uses: brandedoutcast/publish-nuget@v2
+        with:
+          PROJECT_FILE_PATH: src/ApiLocksmith.Core/ApiLocksmith.Core.csproj
+          BUILD_CONFIGURATION: Release
+          PACKAGE_NAME: ApiLocksmith.Core
+          VERSION_REGEX: ^\s*<Version>(.*)<\/Version>\s*$
+          NUGET_KEY: ${{secrets.NUGET_API_KEY}}
+          NUGET_SOURCE: https://api.nuget.org
+
+      # Publish Swagger.FastEndpoints
+      - name: Publish Swagger.FastEndpoints on version change
+        id: publish_swagger_nuget
+        uses: brandedoutcast/publish-nuget@v2
+        with:
+          PROJECT_FILE_PATH: src/ApiLocksmith.Swagger.FastEndpoints/ApiLocksmith.Swagger.FastEndpoints.csproj
+          BUILD_CONFIGURATION: Release
+          PACKAGE_NAME: ApiLocksmith.Swagger.FastEndpoints
+          VERSION_REGEX: ^\s*<Version>(.*)<\/Version>\s*$
+          NUGET_KEY: ${{secrets.NUGET_API_KEY}}
+          NUGET_SOURCE: https://api.nuget.org
