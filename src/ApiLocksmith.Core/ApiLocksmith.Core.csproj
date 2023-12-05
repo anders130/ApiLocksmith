@@ -5,6 +5,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <Description>A C# library for easy integration of ApiKey-based authentication in minimal APIs built with ASP.NET Core.</Description>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 	
   <ItemGroup>

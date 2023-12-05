@@ -5,6 +5,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <Description>A C# library providing Swagger integration with FastEndpoints for APIs secured with ApiKey-based authentication in ASP.NET Core.</Description>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
