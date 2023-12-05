@@ -10,13 +10,15 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{112B8884-643A-4DA4-9886-1964990E21A6}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		LICENSE = LICENSE
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiLocksmith.Swagger.FastEndpoints", "src\ApiLocksmith.Swagger.FastEndpoints\ApiLocksmith.Swagger.FastEndpoints.csproj", "{8BF502F8-5743-4643-ACEB-4F82B2948E82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiLocksmith.Swagger.FastEndpoints", "src\ApiLocksmith.Swagger.FastEndpoints\ApiLocksmith.Swagger.FastEndpoints.csproj", "{8BF502F8-5743-4643-ACEB-4F82B2948E82}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{906E7E3D-3440-4117-B6C4-35C0C8193722}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiLocksmithExample", "examples\ApiLocksmithExample\ApiLocksmithExample.csproj", "{CA89E4EC-978A-42D8-BB28-FC8449031B17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiLocksmithExample", "examples\ApiLocksmithExample\ApiLocksmithExample.csproj", "{CA89E4EC-978A-42D8-BB28-FC8449031B17}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
